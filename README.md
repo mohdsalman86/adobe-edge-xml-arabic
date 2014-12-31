@@ -5,45 +5,6 @@ This contains a Example for basic symbols interactivity to show you how to load 
 ## Code Example / Event > creationComplete 
 
 
-```html
-
-var i = 1;
-
-var message;
-
-        $.ajax({
-
-                type: "GET",
-
-                url: "edit.xml",
-
-                dataType: "xml",
-
-                success: function (xml) {
-
-                    $(xml).find('edit').each(function () {
-
-                        var sTitle = $(this).find('Title').text();
-
-                                message = sTitle ;
-
-                        console.log("Message: " + message);
-
-                        console.log("i :" + i);
-
-                        sym.$("text" + i).html(message);
-
-                        console.log("");
-
-                        i++;
-
-                  });
-
-                },
-
-            });
-
-            ```html
 
 ## License 
 The main File structure of an Animate Copyright under (c) 2011-2014. Adobe Systems Incorporated All rights reserved.
