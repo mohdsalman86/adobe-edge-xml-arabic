@@ -1,11 +1,10 @@
-## Example / Load and display XML content in Adobe Edge + Arabic Text as well / MS/ Demmahom.info 
+## Example to load and display XML content in Adobe Edge + Arabic Text as well / Demmahom.info 
 
 This contains a Example for basic symbols interactivity to show you how to load and display XML content in Adobe Edge.
 
 
 ## Code Example / Event > creationComplete 
 
-var i = 1;
 
 var message;
 
